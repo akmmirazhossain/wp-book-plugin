@@ -1,0 +1,21 @@
+// External Dependencies
+import React, { Component, Fragment } from 'react';
+
+// Internal Dependencies
+import './style.css';
+
+
+class AKMImage extends Component {
+
+  static slug = 'akmde_akmimage';
+
+  render() {
+    return (
+      <div className="">
+        {this.props.content()}
+      </div>
+    );
+  }
+}
+
+export default AKMImage;

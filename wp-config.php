@@ -85,6 +85,8 @@ define( 'WP_DEBUG', false );
 
 
 
+define( 'AKMDE_DEBUG', true );
+
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
