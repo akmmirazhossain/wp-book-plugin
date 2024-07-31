@@ -1,3 +1,24 @@
-.akmde_hello_world {
+/* style.css */
 
-}
+.button-default {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-secondary {
+    background-color: #6c757d;
+    color: #fff;
+  }
+  
+  a.button-default, a.button-primary, a.button-secondary {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

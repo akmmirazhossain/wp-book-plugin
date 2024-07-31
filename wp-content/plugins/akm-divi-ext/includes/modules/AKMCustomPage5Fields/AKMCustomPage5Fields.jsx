@@ -1,12 +1,12 @@
-// External Dependencies
 import React, { Component } from 'react';
 
 // Internal Dependencies
 import './style.css';
 
-class HelloWorld extends Component {
+
+class AKMCustomPage5Fields extends Component {
   
-  static slug = 'myex_hello_world';
+  static slug = 'akm_custom_page_5_fields';
 
   render() {
     const {
@@ -47,4 +47,4 @@ class HelloWorld extends Component {
 }
 }
 
-export default HelloWorld;
+export default AKMCustomPage5Fields;
