@@ -12,6 +12,7 @@ class AKMCustomPage5Fields extends Component {
     const {
       title,
       subtitle,
+      book_author,
       content: Content,
       icon,
       button_text,
@@ -39,6 +40,7 @@ class AKMCustomPage5Fields extends Component {
       <div>
 				<h1 className="title">{title}</h1>
 				<h3 className="subtitle">{subtitle}</h3>
+        <h3 className="book_author">{book_author}</h3>
 				<img decoding="async" src={icon} alt="Icon"/>
 				<div className="content"><Content /></div>
 				<br/><a className="button-primary">{button_text}</a>
